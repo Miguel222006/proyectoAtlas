@@ -287,3 +287,22 @@
     margin-top: 23px;
     background-color: #00FFAD;
 }
+
+footer {
+    /* display: flex;
+    background-color: #192440;
+    color: white; */
+     height: 130px;
+    background-color: #192440 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 180px;
+}
+
+.logos {
+     width: 40px;
+    margin: 0px 8px;
+    filter: invert(100%) grayscale(100%);
+}
