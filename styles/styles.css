@@ -302,7 +302,38 @@ footer {
 }
 
 .logos {
-     width: 40px;
-    margin: 0px 8px;
-    filter: invert(100%) grayscale(100%);
+    /* display: flex; */
+}
+
+.facebook {
+        width: 10vh;
+    /* margin-top: 237px; */
+    
+        margin: 235px 0px 227px 0px;
+    /* padding: 235px 0px 235px 0px; */
+    /* margin-bottom: 222px; */
+}
+
+.twitter {
+        width: 10vh;
+    /* margin-top: 237px; */
+        margin: 235px 0px 227px 0px;
+    /* padding: 235px 0px 235px 0px; */
+    /* margin-bottom: 222px; */
+}
+
+.gmail {
+        width: 10vh;
+    /* margin-top: 237px; */
+        margin: 235px 0px 227px 0px;
+    /* padding: 235px 0px 235px 0px; */
+    /* margin-bottom: 222px; */
+}
+
+.linkedin {
+        width: 10vh;
+    /* margin-top: 237px; */
+        margin: 235px 0px 227px 0px;
+    /* padding: 235px 0px 235px 0px; */
+    /* margin-bottom: 222px; */
 }
