@@ -283,7 +283,7 @@
 .buttonformulario {
     font-size: 17px;
     border-radius: 40px;
-    padding: 13px 269px;
+    padding: 13px 311px;
     margin-top: 23px;
     background-color: #00FFAD;
 }
@@ -292,8 +292,8 @@ footer {
     /* display: flex;
     background-color: #192440;
     color: white; */
-     height: 130px;
-    background-color: #192440 ;
+    height: 130px;
+    background-color: #192440;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -301,39 +301,143 @@ footer {
     padding: 0px 180px;
 }
 
-.logos {
-    /* display: flex; */
-}
-
 .facebook {
-        width: 5vh;
-    /* margin-top: 237px; */
-    
-        /* margin: 235px 0px 227px 0px; */
-    /* padding: 235px 0px 235px 0px; */
-    /* margin-bottom: 222px; */
+    width: 5vh;
+
 }
 
 .twitter {
-        width: 5vh;
-    /* margin-top: 237px; */
-        /* margin: 235px 0px 227px 0px; */
-    /* padding: 235px 0px 235px 0px; */
-    /* margin-bottom: 222px; */
+    width: 5vh;
+
 }
 
 .gmail {
-        width: 5vh;
-    /* margin-top: 237px; */
-        /* margin: 235px 0px 227px 0px; */
-    /* padding: 235px 0px 235px 0px; */
-    /* margin-bottom: 222px; */
+    width: 5vh;
+
 }
 
 .linkedin {
-        width: 5vh;
-    /* margin-top: 237px; */
-        /* margin: 235px 0px 227px 0px; */
-    /* padding: 235px 0px 235px 0px; */
-    /* margin-bottom: 222px; */
+    width: 5vh;
+
+}
+
+@media (max-width: 1279px) {
+    .button1 {
+        width: 20%;
+    }
+
+    .Part2 h1 {
+        font-size: 40px;
+    }
+
+    .part2 {
+        gap: 35px
+    }
+
+    .part2 p {
+        font-size: 14px;
+        width: 90%
+    }
+
+    .Part3 {
+        padding-left: 6%;
+        padding-top: 15%;
+        background-image: linear-gradient(348deg, #00FFAD 0%, #00FFAD 46%, #ffffff 46%, #ffffff 100%);
+    }
+
+    .Part3 img {
+        zoom: 0.7;
+    }
+
+    .titulo2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .part3 p {
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .button2 {
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .Part4 {
+        padding-bottom: 70px;
+    }
+
+    .Part4 img {
+        zoom: 0.7;
+    }
+
+    .part4 {
+        margin-left: 2%;
+    }
+
+    .part4 h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .part4 p {
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .button3 {
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 30px;
+        width: 35%;
+    }
+
+    .Part5 {
+        padding: 50px 50px;
+    }
+
+    .numero0 {
+        font-size: 65px;
+    }
+
+    .button4 {
+        padding: 13px 25px;
+    }
+
+    .buttonMid {
+        padding: 13px 25px;
+    }
+
+    .imgFinal {
+        zoom: 0.7;
+    }
+
+    .buttonformulario {
+        font-size: 15px;
+        padding: 13px 156px;
+    }
+
+    .info h1 {
+        font-size: 45px;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+    .info li {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 85px;
+        padding: 0px 85px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
 }
