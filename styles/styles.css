@@ -300,7 +300,18 @@ footer {
     padding: 0px 180px;
 }
 
-.facebook {
+.logos img {
+    width: 5vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.medium {
+    height: 46px;
+}
+
+/* .facebook {
     width: 5vh;
 
 }
@@ -310,7 +321,7 @@ footer {
 
 }
 
-.gmail {
+.medium {
     width: 5vh;
 
 }
@@ -318,7 +329,7 @@ footer {
 .linkedin {
     width: 5vh;
 
-}
+} */
 
 @media (max-width: 1279px) {
     .button1 {
@@ -434,6 +445,10 @@ footer {
     footer {
         height: 85px;
         padding: 0px 85px;
+    }
+
+    .medium {
+        height: 43px;
     }
 
     footer p {
@@ -577,7 +592,11 @@ footer {
         font-size: 13px;
     }
 
-    .facebook {
+    .medium {
+        height: 42px;
+    }
+
+    /* .facebook {
         width: 4vh;
 
     }
@@ -587,7 +606,7 @@ footer {
 
     }
 
-    .gmail {
+    .medium {
         width: 4vh;
 
     }
@@ -595,7 +614,7 @@ footer {
     .linkedin {
         width: 4vh;
 
-    }
+    } */
 }
 
 @media (max-width: 768px) {
@@ -748,6 +767,14 @@ footer {
     footer p {
         font-size: 10px;
     }
+
+    .logos img {
+        width: 4vh;
+    }
+
+    .medium {
+        height: 35px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -760,25 +787,26 @@ footer {
         font-size: 30px;
     }
 
-
     .text1 {
+        margin-right: 0px;
         font-size: 10px;
     }
 
     .Part1 {
         display: flex;
-
+        align-items: center;
+        text-align: center;
     }
 
     .part1 {
-        margin-left: 50px;
+        margin-left: 0px;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
     .button1 {
         font-size: 12px;
-        width: 50%;
+        width: 100%;
     }
 
     .titulo {
@@ -794,19 +822,119 @@ footer {
         width: 150px;
     }
 
-        .Part2 h2 {
+    .Part2 h2 {
         font-size: 18px;
     }
 
-        .part2 p {
+    .part2 p {
+        width: 100%;
+    }
+
+    .button2 {
+        font-size: 10px;
+        padding: 11px;
+        margin-top: 20px;
+        margin-bottom: 30px;
         width: 100%;
     }
 
     .Part3 {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 80px;
+        background-image: linear-gradient(348deg, #00FFAD 0%, #00FFAD 38%, #ffffff 38%, #ffffff 100%);
+    }
+
+    .laptop {
+        margin-bottom: 10%;
+        margin-left: 0%;
     }
 
     .Part4 {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .tablet {
+        margin-left: 0%;
+    }
+
+    .part4 {
+        margin-left: 0%;
+    }
+
+    .part4 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .part4 p {
+        text-align: center;
+    }
+
+    .button3 {
+        font-size: 10px;
+        padding: 10px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .cajas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja2 {
+        width: 100%;
+    }
+
+    .imgFinal {
+        display: flex;
+        flex-flow: wrap-reverse;
+        zoom: 0.6;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 70px 0px 80px 0px;
+    }
+
+    .nameEmail {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .cuadro {
+        width: 14vh;
+    }
+
+    .buttonformulario {
+        font-size: 12px;
+        padding: 13px 114px;
+    }
+
+    .info p {
+        font-size: 10px;
+    }
+
+    .info li {
+        font-size: 10px;
+    }
+
+    footer {
+        height: 85px;
+        padding: 0px 85px;
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 10px;
+        margin-top: 10px;
     }
 }
