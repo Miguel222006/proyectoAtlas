@@ -228,7 +228,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 80px 0px 80px 0px;
-    background: url(/assets/contact-bk.jpg);
+    background: url(../assets/contact-bk.jpg);
 }
 
 
